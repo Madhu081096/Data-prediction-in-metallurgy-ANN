@@ -3,13 +3,13 @@ The values of thermal conductivity(k), density and heat capacity (cp) of an allo
 
 ## Required packages
 
-numpy/
-matplotlib<br/>
+numpy  
+matplotlib  
 torch  
-tqdm
-pandas
-os 
-time
+tqdm  
+pandas  
+os    
+time  
 
 ## Training dataset format
 
