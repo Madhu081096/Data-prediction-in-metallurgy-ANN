@@ -1,4 +1,4 @@
-# Data-prediction-in-metallurgy-ANN
+# Machine Learning (ML) for Additive manufacturing (AM)
 The values of thermal conductivity (k), density and heat capacity (cp) of an alloy depends on the composition of the elements that constitutes the particular alloy and the temperature of measurement. In order to model the relationship between these values, artificial neural networks can be used. We have used a model with two hidden layers with 20 and 5 neurons and the output layer with one neuron. The input neurons can be varied based on the number of elements to train for. 
 
 ## Required packages
