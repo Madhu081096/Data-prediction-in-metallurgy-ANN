@@ -1,5 +1,5 @@
 # Data-prediction-in-metallurgy-ANN
-The values of thermal conductivity(k), density and heat capacity (cp) of an alloy depends on the composition of the elements that particular alloy and the temperature of measurement. In order to model the relationship between these values, artificial neural networks can be used. We have used a model with two hidden layers with 20 and 5 neurons and the output has one neuron. The input neurons can be varied based on the number of elements to train for. 
+The values of thermal conductivity (k), density and heat capacity (cp) of an alloy depends on the composition of the elements that constitutes the particular alloy and the temperature of measurement. In order to model the relationship between these values, artificial neural networks can be used. We have used a model with two hidden layers with 20 and 5 neurons and the output layer with one neuron. The input neurons can be varied based on the number of elements to train for. 
 
 ## Required packages
 
@@ -25,6 +25,6 @@ The above command is to train for thermal conductivity. To train for density cha
 
 ## To test for a single data point
 
-To predict the thermal conductivity, heat capacity and density for certain composition and temperature, we need to make changes in test.py file. Replace the value of variable 'a' with the data that needs prediction as an array with element composition followed by temperature. Change the value of ch as per the value that needs to be predicted. 'k' - Thermal conductivity, 'cp' - heat capacity , 'density' - density. After modifications run the command,
+To predict the thermal conductivity, heat capacity and density for certain composition and temperature, we need to make changes in test.py file. Replace the value of variable 'a' with the data that needs prediction as an array with element composition followed by temperature. Change the value of ch as per the value that needs to be predicted ('k' - Thermal conductivity, 'cp' - heat capacity , 'density' - density). After modifications run the command,
 
 **python test.py**
