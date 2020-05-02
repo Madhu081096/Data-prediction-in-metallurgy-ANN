@@ -3,7 +3,7 @@ The values of thermal conductivity(k), density and heat capacity (cp) of an allo
 
 ## Required packages
 
-numpy
+numpy \n
 matplotlib
 torch
 tqdm
@@ -11,11 +11,11 @@ pandas
 os 
 time
 
-##Training dataset format
+## Training dataset format
 
 The training data should be a csv file with each row as a datapoint to train. Each row should comprise of the element composition for chosen number of elements in percentage, followed by temperature in celcius and the last column as the value to be regressed. 
 
-##To train the model with the given dataset
+## To train the model with the given dataset
 
 The dataset is available in the folder data. To train, use the following command,
 
