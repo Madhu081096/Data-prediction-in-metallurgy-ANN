@@ -19,6 +19,12 @@ The training data should be a csv file with each row as a datapoint to train. Ea
 
 The dataset is available in the folder data. To train, use the following command,
 
-python main.py --data_path data/data_k.csv --ch k --save_cp True
+**python main.py --data_path data/data_k.csv --ch k --save_cp True**
 
-The above command is to train for thermal conductivity. To train for density change datapath as data/data_density.csv and replace k with density. Similarly, to train for heat capacity replace path as data/data_cp and k with cp. 
+The above command is to train for thermal conductivity. To train for density change datapath as data/data_density.csv and replace k with density. Similarly, to train for heat capacity replace path as data/data_cp and k with cp. save_cp is set to true to save the checkpoints during training.
+
+## To test for a single data point
+
+To predict the thermal conductivity, heat capacity and density for certain composition and temperature, we need to make changes in test.py file. Replace the value of variable 'a' with the data that needs prediction as an array with element composition followed by temperature. Change the value of ch as per the value that needs to be predicted. 'k' - Thermal conductivity, 'cp' - heat capacity , 'density' - density. After modifications run the command,
+
+**python test.py**
